@@ -1,0 +1,38 @@
+.HS-product{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+}
+.banner-event{
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+}
+.banner-event .banner-wrapper{
+    background-image: url('https://wp.alithemes.com/html/evara/evara-frontend/assets/imgs/banner/banner-8.jpg');
+    padding: 50px;
+}
+.banner-wrapper .banner-content h5{
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 14px;
+    color: #90908e;
+    margin-bottom: 15px;
+}
+.banner-wrapper .banner-content h2{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.banner-wrapper .banner-content span{
+    color: #088178;
+}

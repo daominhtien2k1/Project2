@@ -1,0 +1,45 @@
+.review-order-table h4{
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+.review-order-table .table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.review-order-table .table th{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .1em;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #e2e9e1;
+}
+.review-order-table .table td {
+    border: 1px solid #e2e9e1;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
+.review-order-table .table td.product-thumbnail{
+    width: 20%;
+}
+.review-order-table .table .product-thumbnail img {
+    max-width: 80px;
+}
+.review-order-table .table h5{
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 14px;
+}
+.review-order-table .table a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #088178;
+}

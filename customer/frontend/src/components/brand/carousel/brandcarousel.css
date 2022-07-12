@@ -1,0 +1,60 @@
+.HS-brand{
+    margin-bottom: 50px;
+}
+.brand-wrapper{
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.brand-wrapper .brand-carousel{
+    display: flex;
+    transition: all 1.5s ease;
+}
+.brand-wrapper .arrow-left, .brand-wrapper .arrow-right {
+    width: 30px;
+    height: 30px;
+    background-color: #e8f6ea;
+    border: 1px solid #cce7d0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+}
+.brand-wrapper .arrow-left:hover, .brand-wrapper .arrow-right:hover{
+    background-color: #088178;
+}
+
+.brand-wrapper .arrow-left {
+    right:  3rem;
+}
+
+.brand-wrapper .arrow-right {
+    right:  0rem;
+}
+
+.brand-wrapper .itemBrand-active {
+    opacity: 1;
+}
+
+.brand-wrapper .itemBrand {
+    opacity: 0;
+}
+
+.brand-wrapper .itemBrand-active img{
+    width: 220px;
+}
+
+.brand-wrapper .brand-title{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    line-height: 1.2;
+}

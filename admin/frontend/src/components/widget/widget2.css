@@ -1,0 +1,27 @@
+.widget2{
+    flex: 1;
+    background-color: #0694A2;
+    border-width: 1px;
+    border-radius: 0.5rem;
+}
+.widget2-wrapper{
+    text-align: center;
+    padding: 24px;
+}
+.widget2-wrapper .icon{
+    color: #FFF;
+    width: 30px;
+    height: 30px;
+}
+
+.widget2-wrapper .title{
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    color: #F9FAFB;
+
+}
+.widget2-wrapper .value{
+    color: #F9FAFB;
+    font-size: 30px;
+    font-weight: 700;
+}

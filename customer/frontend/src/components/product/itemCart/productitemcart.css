@@ -1,0 +1,53 @@
+tr.row-cart {
+    border: 1px solid #ddd;
+}
+tr.row-cart td{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+tr.row-cart td.image-product-thumbnail img{
+    max-width: 80px;
+}
+tr.row-cart td.product-name a{
+    text-decoration: none;
+    cursor: pointer;
+}
+tr.row-cart td h5, tr.row-cart td span{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #088178;
+    font-weight: 600;
+}
+tr.row-cart td.quantity div{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+tr.row-cart td.quantity input {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    color: #088178;
+}
+tr.row-cart td.quantity .icon1{
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 18px;
+}
+tr.row-cart td.quantity .icon2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+}
+tr.row-cart td.quantity .icon1:hover, tr.row-cart td.quantity .icon2:hover{
+    cursor: pointer;
+}
+tr.row-cart td.action-remove:hover{
+    cursor: pointer;
+    color: #088178;
+}

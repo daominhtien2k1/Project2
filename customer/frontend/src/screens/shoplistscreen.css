@@ -1,0 +1,13 @@
+.CMShopListScreen .wrapper{
+    display: flex;
+    margin: 50px 11.5rem;
+    gap: 60px;
+}
+.CMShopListScreen .wrapper .HS-left-sidebar {
+    width: 20%;
+}
+.CMShopListScreen .wrapper .HS-list-product{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

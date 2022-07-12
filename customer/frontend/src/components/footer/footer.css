@@ -1,0 +1,45 @@
+.CMfooter {
+    border-top: 1px solid #e2e9e1;
+}
+.CMfooter .CMfooter-wrapper{
+    margin-top: 25px;
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CMfooter-wrapper h5{
+    margin: 15px 0 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    line-height: 1.2;
+}
+.CMfooter-wrapper h4{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Spartan", sans-serif;
+    color: #90908e;
+    font-size: 16px;
+}
+.CMfooter-wrapper p{
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #465b52;
+}
+.CMfooter-wrapper a{
+    margin: 0 0 13px;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+    color: #1a1a1a;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}

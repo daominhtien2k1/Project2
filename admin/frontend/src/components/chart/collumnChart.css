@@ -1,0 +1,17 @@
+.columnChart{
+    background-color: #FFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    flex: 1;
+}
+
+.columnChart-wrapper p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.columnChart-wrapper .columnChart-center {
+    height:240px;
+    width: 550px;
+    margin: 0 auto;
+}

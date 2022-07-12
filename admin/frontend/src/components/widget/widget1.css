@@ -1,0 +1,31 @@
+.widget1{
+    flex: 1;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.widget1-wrapper{
+    display: flex;
+    align-items: center;
+}
+.widget1-wrapper .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.75rem;
+    margin-right: 1rem;
+    font-size: 1.125rem;
+    justify-content: center;
+    border-radius: 9999px;
+    border: 0 solid #d5d6d7;
+}
+
+.widget1-wrapper p:first-child{
+    color: #4C4F52;
+}
+.widget1-wrapper p:last-child{
+    color: #4C4F52;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}

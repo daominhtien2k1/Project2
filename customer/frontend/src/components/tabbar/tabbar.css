@@ -1,0 +1,26 @@
+.account-tabbar .tabbar-wrapper .tab{
+    border: 1px solid #e8e8e8;
+}
+.tabbar-wrapper .tab h5{
+    border: 1px solid #e2e9e1;
+    background-color: #f6f9fc;
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    line-height: 1.2;
+}
+.tabbar-wrapper .tab ul li{
+    list-style: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabbar-wrapper .tab ul li a{
+    color: #242424;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Spartan", sans-serif;
+}

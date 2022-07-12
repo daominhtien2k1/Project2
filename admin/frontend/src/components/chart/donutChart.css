@@ -1,0 +1,16 @@
+.donutChart{
+    background-color: #FFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    flex: 1;
+
+}
+.donutChart-wrapper p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.donutChart-wrapper .donutChart-center {
+    width: 380px;
+    height: 250px;
+    margin: 0 auto;
+}

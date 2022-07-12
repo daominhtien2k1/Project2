@@ -1,0 +1,12 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    /*padding: 0; thẻ ul có padding-left default là 40px*/
+}
+.homescreen{
+    display: flex;
+}
+.homescreen .home-container{
+    flex: 6;
+}
+

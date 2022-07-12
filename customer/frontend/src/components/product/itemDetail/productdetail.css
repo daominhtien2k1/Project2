@@ -1,0 +1,101 @@
+.detail {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.detail .reviews {
+    width: 100%;
+}
+.detail .reviews h3{
+    width: 100%;
+    font-size: 30px;
+    font-family: "Spartan", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+    border-bottom: 1px solid #e2e9e1;
+    margin: 30px 0 0;
+    padding-bottom: 10px;
+}
+.detail .reviews .reviews-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.detail .reviews .reviews-wrapper .review-col{
+    width: 48%;
+}
+.detail .reviews .reviews-wrapper .review-col h4{
+    color: #2a2a2a;
+    font-size: 18px;
+    font-family: "Spartan", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.detail .reviews .reviews-wrapper .review-col .comment-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 25px;
+}
+.detail .reviews .reviews-wrapper .review-col .list-progress{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 30px;
+}
+.detail .reviews .reviews-wrapper .review-col .average-review{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 30px;
+}
+.detail h4{
+    width: 100%;
+    color: #2a2a2a;
+    font-size: 18px;
+    font-family: "Spartan", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.detail .leave-a-review {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.detail .leave-a-review textarea{
+    min-width: 50%;
+    min-height: 200px;
+    padding: 15px 10px 10px 20px;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid #e2e9e1;
+    resize: vertical;
+}
+
+.detail .leave-a-review textarea:focus{
+    border: 1px solid red;
+}
+
+.detail .leave-a-review .submit-review{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4375em;
+    background-color: #0e9f6e;
+    cursor: pointer;
+    border: 1px solid #046963;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+}
+.detail .leave-a-review .submit-review:hover{
+    background-color: #3f81eb;
+}

@@ -1,0 +1,25 @@
+tr.row-wishlist {
+    border: 1px solid #ddd;
+}
+tr.row-wishlist td{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+tr.row-wishlist td.image-product-thumbnail img{
+    max-width: 80px;
+}
+tr.row-wishlist td.product-name a{
+    text-decoration: none;
+    cursor: pointer;
+}
+tr.row-wishlist td h5, tr.row-wishlist td span{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #088178;
+    font-weight: 600;
+}
+
+tr.row-wishlist td.action-remove:hover, tr.row-wishlist td.action-add:hover{
+    cursor: pointer;
+    color: #088178;
+}

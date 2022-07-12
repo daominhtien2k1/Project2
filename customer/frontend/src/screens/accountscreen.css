@@ -1,0 +1,11 @@
+.CM-AccountScreen .wrapper{
+    margin: 50px 11.5rem;
+    display: flex;
+    gap: 30px;
+}
+.CM-AccountScreen .wrapper .tabbar-account{
+    width: 30%;
+}
+.CM-AccountScreen .wrapper .tabcontent-account{
+    width: 70%;
+}

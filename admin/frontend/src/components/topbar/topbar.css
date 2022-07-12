@@ -1,0 +1,25 @@
+.topbar{
+    border-bottom: 0.5px solid rgb(231,228,228);
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.topbar-right{
+    display: flex;
+    justify-content: end;
+    color: #0e9f6e;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.topbar-right .icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+ul li{
+    list-style: none;
+}

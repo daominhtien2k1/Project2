@@ -1,0 +1,155 @@
+.cart{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cart .wrapper{
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+}
+
+.cart .wrapper .coupon-total{
+    display: flex;
+}
+.cart .wrapper .continue-shopping {
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.continue-shopping button{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: fit-content;
+    height: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    background-color: #088178;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: transparent;
+}
+.continue-shopping button span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.continue-shopping button span span{
+    margin-left: 0.75rem;
+    font-family: "Lato", sans-serif;
+}
+
+.cart .wrapper .coupon-total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.cart .wrapper .coupon-total .coupon{
+    width: 50%;
+}
+.cart .wrapper .coupon-total .coupon h4{
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.cart .wrapper .coupon-total .coupon div{
+    display: flex;
+    gap: 20px;
+}
+.cart .wrapper .coupon-total .coupon div input{
+    flex: 0.5;
+    text-align: center;
+}
+.cart .wrapper .coupon-total .coupon div div{
+    flex: 1
+}
+.cart .wrapper .coupon-total .coupon .apply-coupon button{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: fit-content;
+    height: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    background-color: #088178;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: transparent;
+}
+.cart .wrapper .coupon-total .coupon .apply-coupon button span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cart .wrapper .coupon-total .coupon .apply-coupon button span span{
+    margin-left: 0.75rem;
+    font-family: "Lato", sans-serif;
+}
+
+.cart .wrapper .coupon-total .cart-total{
+    padding: 30px;
+    border: 1px solid #e2e9e1;
+    border-radius: 4px;
+    width: 50%;
+}
+.cart-total h4{
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.cart-total .checkout button{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: fit-content;
+    height: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    background-color: #088178;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: transparent;
+}
+.cart-total .checkout button span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cart-total .checkout button span span{
+    margin-left: 0.75rem;
+    font-family: "Lato", sans-serif;
+}
+.cart-total table.table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.cart-total table.table td{
+    border: 1px solid #e2e9e1;
+    vertical-align: middle;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
+.cart-total .checkout{
+    margin-top: 16px;
+}
+
+

@@ -1,0 +1,99 @@
+.CM-shippingAddress .add-edit-address {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #e3e9ef;
+    border-radius: 0.4375rem;
+    padding: 1rem 1.25rem;
+}
+.CM-shippingAddress .add-edit-address .title{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+}
+.CM-shippingAddress .add-edit-address .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.CM-shippingAddress .add-edit-address .fields .input-field{
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+.CM-shippingAddress .add-edit-address .input-field label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #2e2e2e;
+    font-family: "Lato", sans-serif;
+}
+.CM-shippingAddress .add-edit-address .input-field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.CM-shippingAddress .add-edit-address .input-field input :focus,
+.CM-shippingAddress .add-edit-address .input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.CM-shippingAddress .add-edit-address select,
+.CM-shippingAddress .add-edit-address input[type="date"]{
+    color: #707070;
+}
+.CM-shippingAddress .add-edit-address .input-field input[type="date"]:valid{
+    color: #333;
+}
+.CM-shippingAddress .add-edit-address .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.CM-shippingAddress .add-edit-address .buttons button:hover{
+    background-color: #2E7D32;
+}
+.CM-shippingAddress .add-edit-address .buttons button{
+    height: 45px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #39B4AC;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.CM-shippingAddress .addShippingAddress button{
+    background-color: #39B4AC;
+    padding: 10px 22px;
+    font-size: 0.75em;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    border: 1px solid #39B4AC;
+    margin-left: auto;
+    margin-top: 16px;
+    display: flex;
+}
+.CM-shippingAddress .addShippingAddress button:hover{
+    cursor: pointer;
+    background-color: #2E7D32;
+}

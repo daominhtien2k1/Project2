@@ -1,0 +1,190 @@
+.CM-OrderScreen .container{
+    display: flex;
+    margin: 50px 11.5rem;
+    gap: 16px;
+}
+.CM-OrderScreen .container .card-shippingAddress{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+    border-radius: 10px;
+}
+.CM-OrderScreen .container .review-order{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card-shippingAddress .address-container .title-info-address{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    color: #39b4ac;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+}
+.card-shippingAddress .address-container .title-info-address .use-set-address{
+    flex: 0 1 auto;
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+.title-info-address .use-set-address button{
+    padding: 12px 12px;
+    font-weight: 400;
+    font-size: 14px;
+    background: #0e9f6e;
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 2px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.card-shippingAddress .address-container .info-address {
+    display: flex;
+    font-size: 1rem;
+    gap: 16px;
+    margin: 30px 0 20px 0;
+}
+.card-shippingAddress .address-container .info-address .name-telephone{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+.card-shippingAddress .address-container .info-address .address{
+    flex: 3;
+}
+.card-shippingAddress .address-container .info-address .action{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.card-shippingAddress .address-container .info-address .action .default{
+    font-weight: 500;
+    color: #929292;
+    text-transform: capitalize;
+}
+.card-shippingAddress .address-container .info-address .action .change-address {
+    color: #39b4ac;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card-shippingAddress .address-container .list-addresses-select .info-address-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 9px 0;
+}
+.card-shippingAddress .address-container .list-addresses-select .info-address-item input{
+    accent-color: #0e9f6e;
+}
+.card-shippingAddress .address-container .list-addresses-select .info-address-item h4{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+.card-shippingAddress .address-container .list-addresses-select .info-address-item .address{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+
+.card-shippingAddress .address-container .list-addresses-select .buttons button{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    margin: 20px 30px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #0e9f6e;
+    background-color: #0e9f6e;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.card-shippingAddress .address-container .list-addresses-select .buttons button:hover{
+    background-color: #088178;
+}
+
+.CM-OrderScreen .container .card-shippingAddress .address-container form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.CM-OrderScreen .container .card-shippingAddress .address-container form .form-group{
+    margin-bottom: 1rem;
+    padding-left: 20px;
+    border: 1px solid #e2e9e1;
+    width: calc(100% / 2 - 30px);
+}
+.CM-OrderScreen .container .card-shippingAddress .address-container form .form-group input{
+    height: 45px;
+    border: none;
+    font-size: 13px;
+    width: 100%;
+}
+.CM-OrderScreen .container .card-shippingAddress .address-container form .form-group input:focus{
+    outline:none;
+}
+.CM-OrderScreen .container .card-shippingAddress .address-container form .form-group input:focus-visible{
+    border: none;
+}
+.CM-OrderScreen .container .card-shippingAddress .payment {
+    padding: 15px;
+    border: 1px solid #e2e9e1;
+    margin-top: 16px;
+}
+.CM-OrderScreen .container .card-shippingAddress .payment .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    color: #39b4ac;
+}
+.CM-OrderScreen .container .card-shippingAddress .payment form span{
+    display: flex;
+    color: #B3B3B3;
+}
+.CM-OrderScreen .container .card-shippingAddress .payment form input{
+    display: flex;
+    background-color: #f7f7f7;
+    height: 45px;
+    border: none;
+    padding-left: 16px;
+    margin: 8px 0;
+    font-size: 13px;
+    width: 95%;
+    cursor: not-allowed;
+}
+.CM-OrderScreen .container .card-shippingAddress .payment form input:focus{
+    outline:none;
+}
+.CM-OrderScreen .container .review-order .placeOrder{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #0e9f6e;
+    background-color: #0e9f6e;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.CM-OrderScreen .container .review-order .placeOrder:hover{
+    background-color: #088178;
+}
+
